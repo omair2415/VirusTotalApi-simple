@@ -1,0 +1,4 @@
+curl --request GET \
+--url https://www.virustotal.com/api/v3/analyses/[HASH] \
+--header 'accept: application/json' \
+--header 'x-apikey:[API]'
