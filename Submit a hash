@@ -1,0 +1,1 @@
+curl --request GET --url https://www.virustotal.com/api/v3/files/[HASH] --header 'accept: application/json' --header 'x-apikey: THE_API_KEY'
