@@ -1,1 +1,8 @@
 curl --request POST --url https://www.virustotal.com/api/v3/urls --form url=[URL] --header 'x-apikey: [API]'
+
+
+
+
+<!--- The first step will be to submit a URL for scanning using the POST method. By default, curl uses the GET method, so the --request POST option tells curl to use POST.
+Next, the --url option specifies the link to the VirusTotal v3 API URL endpoint.
+The URL to scan is sent using --form url=, and the API key is provided with --header 'x-apikey: ' --->
