@@ -1,0 +1,6 @@
+curl --request POST \
+--url https://www.virustotal.com/api/v3/files \
+--header 'accept: application/json' \
+--header 'content-type: multipart/form-data' \
+--header 'x-apikey:[API]' \
+--form file=@examplefile.txt
