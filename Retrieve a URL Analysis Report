@@ -1,0 +1,6 @@
+curl --url https://www.virustotal.com/api/v3/urls/[SHA256 hash portion of the id to make the request] --header 'x-apikey:[]'
+
+
+
+
+<!--- The curl request uses the GET method. The request will supply the id using the --url https://www.virustotal.com/api/v3/urls/{id} option and the API key using --header 'x-apikey: --->
